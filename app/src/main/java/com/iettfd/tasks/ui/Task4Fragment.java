@@ -71,7 +71,7 @@ public class Task4Fragment extends Fragment implements DatePickerDialog.OnDateSe
             datePicker.show();
         });
 
-        progress_btn.setOnClickListener(v -> {
+        alert_btn.setOnClickListener(v -> {
             Dialog updateDialog = new Dialog(getContext());
             updateDialog.setContentView(R.layout.custom_alert);
             updateDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
