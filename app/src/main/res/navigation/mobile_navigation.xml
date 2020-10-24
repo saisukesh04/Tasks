@@ -22,4 +22,10 @@
         android:name="com.iettfd.tasks.ui.Task3Fragment"
         android:label="@string/menu_task3"
         tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_task4"
+        android:name="com.iettfd.tasks.ui.Task4Fragment"
+        android:label="@string/menu_task4"
+        tools:layout="@layout/fragment_task4" />
 </navigation>

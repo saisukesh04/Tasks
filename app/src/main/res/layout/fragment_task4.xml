@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginTop="24dp"
+    tools:context=".ui.Task4Fragment">
+
+    <Button
+        android:id="@+id/date_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:text="Date Picker"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/toast_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Toast"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/alert_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:text="Alert"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/snackbar_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:text="SnackBar"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/progress_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:text="Progress"
+        android:layout_margin="16dp"/>
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/loading_anim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:indicatorColor="@color/colorPrimaryDark"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:layout_margin="16dp"
+        android:visibility="invisible"
+        app:indicatorName="LineSpinFadeLoaderIndicator" />
+
+</LinearLayout>
