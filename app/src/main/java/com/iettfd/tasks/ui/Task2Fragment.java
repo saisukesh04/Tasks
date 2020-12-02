@@ -14,15 +14,14 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProviders;
 
 import com.iettfd.tasks.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+
+import static com.iettfd.tasks.util.WindowUtil.showToolbar;
 
 public class Task2Fragment extends Fragment {
 
@@ -30,6 +29,7 @@ public class Task2Fragment extends Fragment {
     @BindView(R.id.helloText) TextView helloText;
 
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        showToolbar(getActivity());
         View root = inflater.inflate(R.layout.fragment_gallery, container, false);
 
         ButterKnife.bind(this,root);

@@ -14,7 +14,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.DatePicker;
-import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.google.android.material.snackbar.Snackbar;
@@ -25,6 +24,8 @@ import java.util.Calendar;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+
+import static com.iettfd.tasks.util.WindowUtil.showToolbar;
 
 public class Task4Fragment extends Fragment implements DatePickerDialog.OnDateSetListener{
 
@@ -40,6 +41,7 @@ public class Task4Fragment extends Fragment implements DatePickerDialog.OnDateSe
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        showToolbar(getActivity());
         View root = inflater.inflate(R.layout.fragment_task4, container, false);
 
         ButterKnife.bind(this,root);
