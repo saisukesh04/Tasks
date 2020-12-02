@@ -11,6 +11,7 @@
     <string name="menu_task2">Task 2</string>
     <string name="menu_task3">Task 3</string>
     <string name="menu_task4">Task 4</string>
+    <string name="menu_weather">Weather</string>
     <string name="alert_text">Nice Alert right?</string>
 
 </resources>

@@ -8,10 +8,12 @@
             android:id="@+id/nav_home"
             android:icon="@drawable/number_one"
             android:title="@string/menu_task1" />
+
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/number_two"
             android:title="@string/menu_task2" />
+
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/number_three"
@@ -21,5 +23,10 @@
             android:id="@+id/nav_task4"
             android:icon="@drawable/number_four"
             android:title="@string/menu_task4" />
+
+        <item
+            android:id="@+id/nav_weather"
+            android:icon="@drawable/number_nine"
+            android:title="@string/menu_weather" />
     </group>
 </menu>
